@@ -1,0 +1,111 @@
+            @media (max-width: 767px) {
+                .banner {
+                    margin-top: 0px;
+                    padding: 20px;
+                }
+                .banner img {
+                    height: 270px;
+                    width: 320px;
+                    margin: 10px 0 0 0;
+                }
+                .banner .btn {
+                    font-size: 8px;
+                    margin-left: 5px;
+                    margin: 10px 10px;
+                }
+                .banner h2 {
+                    font-size: 25px;
+                }
+                .banner p {
+                    font-size: 10px;
+                }
+                .banner p,
+                .banner h2,
+                .banner button {
+                    margin-top: 10px;
+                }
+                .services h4 {
+                    color: #4c4c4c;
+                    font-size: 15px;
+                    margin: 10px 10px;
+                }
+                .services p {
+                    font-size: 12px;
+                    padding-bottom: 20px;
+                }
+                .services i {
+                    width: 50px;
+                    height: 50px;
+                    font-size: 20px;
+                    padding: 20px 15px;
+                    background-color: indianred;
+                    border-radius: 50%;
+                    color: white;
+                }
+                .services {
+                    padding: 30px;
+                }
+                /*Pricing*/
+                .pricing {
+                    padding: 20px 3px 3px 30px;
+                }
+                .packages {
+                    padding: 30px;
+                    margin-top: 10px;
+                }
+                .packages h1 {
+                    font-size: 27px;
+                }
+                .packages .btn {
+                    font-size: 10px;
+                }
+                /*TEAM*/
+                .team img {
+                    margin-top: 30px;
+                }
+                .team {
+                    padding: 30px 0px 30px;
+                }
+                /*Client*/
+                .clients img {
+                    width: 130px;
+                    margin: 20px 0px;
+                    height: 50px;
+                }
+                .clients {
+                    padding: 20px 0px 30px;
+                }
+                /*                Contact*/
+                .contact {
+                    padding: 20px 0px 30px;
+                }
+                footer .padding-top {
+                    margin-bottom: 40px;
+                }
+            }
+            
+            @media (min-width: 768px) and (max-width: 991px) {
+                .banner img {
+                    height: 300px;
+                    width: 350px;
+                    margin: 20px 0 0 20px;
+                }
+                .banner h2 {
+                    font-size: 30px;
+                }
+                .banner .btn {
+                    font-size: 12px;
+                    margin-left: 10px;
+                }
+                .clients img {
+                    width: 150px;
+                    margin: 20px 0px;
+                    height: 50px;
+                }
+            }
+            
+            @media (min-width: 992px) and (max-width: 1200px) {}
+            
+            @media (min-width: @screen-lg-min) {
+                ...
+            }

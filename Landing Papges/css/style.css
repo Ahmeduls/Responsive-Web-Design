@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'lato', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;   
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+a:hover,
+a:active{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'lato',sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+p{
+    font-size: 12px;
+    line-height: 21px;
+}
+.btn{
+    transition: all 300se ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #ededed !important;
+    color: @3c3c3c; !important;
+    border: 1px solid #fff !important;
+}
+
+/*NAVIGATION*/
+
